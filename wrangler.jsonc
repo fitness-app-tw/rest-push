@@ -1,0 +1,12 @@
+{
+  // Fitness 組間休息通知伺服器
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fitness-rest-push",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "durable_objects": {
+    "bindings": [{ "name": "HUB", "class_name": "Hub" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Hub"] }],
+  "observability": { "enabled": false }
+}

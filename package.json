@@ -1,0 +1,13 @@
+{
+  "name": "fitness-rest-push",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fitness App 組間休息通知伺服器（手機網頁版的背景通知用）",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
